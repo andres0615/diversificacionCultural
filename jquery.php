@@ -47,7 +47,7 @@
             <a href="#" id="accion" >Mostrar/Ocultar</a>
         </div>
         <div id="reaccion" style="display: block">
-            hola mundo.
+            hola mundo.sss
         </div>
     </body>
 </html>
