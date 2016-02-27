@@ -1,0 +1,147 @@
+shfSecurity:
+  index:
+    security: false
+  login:
+    security: false
+  logout:
+    security: true
+  noPermission:
+    security: false
+  exception:
+    security: false
+
+default:
+  index:
+    security: false
+    credentials:
+      - [admin, usuario]
+  insert:
+    security: false
+
+admin:
+  admin:
+    security: true
+    credentials:
+      - [admin]
+
+usuario:
+  insert:
+    security: true
+    credentials:
+      - [admin]
+
+localidad:
+  index:
+    security: true
+    credentials:
+      - [admin]
+
+  insert:
+    security: true
+    credentials:
+      - [admin]
+
+tipoDocumento:
+  index:
+    security: true
+    credentials:
+      - [admin]
+
+  insert:
+    security: true
+    credentials:
+      - [admin]
+
+organizacion:
+  index:
+    security: true
+    credentials:
+      - [admin]
+
+  insert:
+    security: true
+    credentials:
+      - [admin]
+
+patrocinador:
+  index:
+    security: true
+    credentials:
+      - [admin]
+
+  insert:
+    security: true
+    credentials:
+      - [admin]
+
+categoria:
+  index:
+    security: true
+    credentials:
+      - [admin]
+
+  insert:
+    security: true
+    credentials:
+      - [admin]
+
+tarifa:
+  index:
+    security: true
+    credentials:
+      - [admin]
+
+  insert:
+    security: true
+    credentials:
+      - [admin]
+
+tipoPqrs:
+  index:
+    security: true
+    credentials:
+      - [admin]
+
+  insert:
+    security: true
+    credentials:
+      - [admin]
+
+estadoPqrs:
+  index:
+    security: true
+    credentials:
+      - [admin]
+
+  insert:
+    security: true
+    credentials:
+      - [admin]
+
+credencial:
+  index:
+    security: true
+    credentials:
+      - [admin]
+
+  insert:
+    security: true
+    credentials:
+      - [admin]
+
+evento:
+  index:
+    security: true
+    credentials:
+      - [admin]
+
+  insert:
+    security: true
+    credentials:
+      - [admin]
+
+usuarioUi:
+  index:
+    security: true
+    credentials:
+      - [usuario, admin]

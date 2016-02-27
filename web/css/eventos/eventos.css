@@ -1,0 +1,216 @@
+.eventos-item img {
+  width: 100%;
+}
+
+.eventos-items {
+  
+}
+
+.item-5 {
+  
+}
+
+.eventos-item {
+  margin-bottom: 1.5em;
+}
+
+.eventos-item-img {
+  width: 100%;
+}
+
+.eventos-item-widgets-view {
+  text-align: left;
+}
+
+.eventos-item-widgets-view .tt-wrapper {
+  max-width: 100%;  
+  margin: 0;
+  max-height: 2em;
+}
+
+.eventos-item-widgets-view .tt-wrapper li a {
+  max-width: 2em;
+  max-height: 2em;
+  background-size: 650%;
+}
+
+.tt-wrapper li .tt-facebook{
+    background-position: 60% 0;
+}
+
+.tt-wrapper li .tt-twitter{
+    background-position: 20% 0;
+}
+
+.tt-wrapper li {
+  float: left;
+}
+
+.eventos-item-widgets-view .widgets1 {
+  max-width: 50%;
+  margin-right: 0;
+  display: inline-block;
+}
+
+.tt-wrapper li a span {
+  /*background: #fff;*/
+  background: rgba(255,255,255,1);
+}
+
+.eventos-item-description {
+  background: rgba(255,255,255,2);
+  max-width: 100%;
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.125);
+}
+
+.eventos-item-description h5 {
+  margin-top: 0;
+}
+
+.read {
+  display: inline-block;
+  position: relative;
+  z-index: 9;
+  float: right;
+  font-size: 12px;
+  padding: 10px 26px;
+  padding-left: 32px;
+  color: #F2F2F2;
+  margin-top: 5px;
+  background: #555657;
+  /* background: #DB3D3E; */
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  letter-spacing: 1px;
+  font-family: Arial, sans-serif;
+  margin-right: -29px;
+  border-right: 8px solid rgba(0,0,0,.15);
+  border-radius: 0 3px 0 0;
+  -webkit-transform: perspective(0) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  -moz-transform: perspective(0) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  -o-transform: perspective(0) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  -ms-transform: perspective(0) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  transform: perspective(0) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+}
+
+.read:before {
+  content: '';
+  position: absolute;
+  margin-left: -33px;
+  margin-top: -14px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 44px 0 0 15px;
+  border-color: transparent transparent transparent #F7F8F9;
+}
+
+.read:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: -7px;
+  margin-bottom: -12px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 12px 8px 0 0;
+  border-color: #AFAFAF transparent transparent transparent;
+}
+
+.read:hover {
+	margin-right: -27px;
+	-webkit-transform: perspective(120px) rotateX(0deg) rotateY(-32deg) rotateZ(0deg);
+	-moz-transform: perspective(120px) rotateX(0deg) rotateY(-32deg) rotateZ(0deg);
+	-o-transform: perspective(120px) rotateX(0deg) rotateY(-32deg) rotateZ(0deg);
+	-ms-transform: perspective(120px) rotateX(0deg) rotateY(-32deg) rotateZ(0deg);
+	transform: perspective(120px) rotateX(0deg) rotateY(-32deg) rotateZ(0deg);
+        opacity: .6;
+}
+
+
+.eventos-item-coments-viewpicture {
+  margin-top: 1em;
+}
+
+.eventos-item-autor {
+  background-color: rgba(255, 255, 255, 0.40);
+  max-width: 100%;
+  padding: 1em 2em;
+  position: relative;
+  /*margin: -20px;*/
+}
+
+.eventos-item-description-title a {
+  color: rgba(0,0,0,0.7);  
+}
+
+.eventos-item-description-title a h5 {
+  font-weight: bold;
+}
+
+.eventos-item-description-text {
+  color: rgba(0,0,0,0.5);
+  min-height: 3em;
+  /*vertical-align: middle;*/
+}
+
+.eventos-item-autor {
+  color: rgba(0,0,0,0.8);
+  font-weight: bold;
+}
+
+.eventos-paginador {
+  text-align: center;
+}
+
+.eventos-paginador .pagination {
+  /*margin: 0;*/
+}
+
+.eventos-item-description-text p {
+  margin: 0;
+}
+
+.eventos-item-description-text > div {
+  
+}
+
+.eventos-item-description-text {
+ /*line-height: 3em;*/
+}
+
+.usuario-item1 ul hr {
+  margin: .3em 0;
+  width: 100%;
+}
+
+.usuario-item2 {
+  display: block;
+  /*margin: 2em 0;*/
+  background: #f9f9f9;
+  border: 1px solid #d5d5d5;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px #dadada, inset 0px -3px 0px #e6e6e6;
+  width: 100%;
+  padding: .5em 1em;
+}
+
+.usuario-item3 {
+  background-color: rgba(255, 179, 78, 0.2);
+  width: 100%;
+  padding: 1.5em 2.5em;
+  font-family: "Sansation_Regular";
+}

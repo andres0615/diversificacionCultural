@@ -1,0 +1,1127 @@
+all:
+  favicon: hola.ico
+  title: titulo de la pagina general
+  meta:
+    - charset="UTF-8"
+    - http-equiv="X-UA-Compatible" content="IE=edge"
+  javascript:
+    - jquery-1.9.1.js
+    - bootstrap.js
+    - usuario/showpass.js
+    - confirmaremergente/jquery-ui.js
+    - autocomplete.js
+    - main.js
+    - tooltipster/jquery.tooltipster.js
+    - profileWidget.js
+    - datepicker/activeDatepicker.js
+    - components/fileinput.js
+    - active/activeComponents.js
+
+  stylesheet:
+    - confirmaremergente/jquery-ui.css
+    - datepicker/jquery-ui-1.7.2.custom.css
+    - navigation.css
+    - bootstrap.css
+    - main.css
+    - font-awesome.min.css
+    - index.css
+    - tooltipster/tooltipster.css
+    - components/cbuttons.css
+    - components/fileinput.css
+
+shfSecurity:
+  index:
+    title: Identificacion de usuario
+    stylesheet:
+      - signin.css
+      
+  ingresar:
+    stylesheet:      
+      - addons/css/style.css
+      - loginForm.css
+      - errormesage/jquery.toastmessage-min.css
+      - shfSecurity/login.css
+
+    javascript:
+      - errormesage/jquery.toastmessage-min.js
+      - login.js
+
+default:
+  index:
+    javascript:
+      - index.js
+      
+preFabricados:
+  index:
+    stylesheet:      
+      - camera/camera.css
+      - addons/css/style.css
+      
+    javascript:
+      - index.js
+      - camera/camera.js
+      
+  quienesSomos:
+    stylesheet:
+      - addons/css/style.css
+
+    javascript:
+      
+  mision:
+    stylesheet:      
+      - addons/css/style.css
+
+    javascript:
+      
+  vision:
+    stylesheet:      
+      - addons/css/style.css
+
+    javascript:
+      
+  galeria:
+    stylesheet:      
+      - addons/css/style.css
+      - flexslider/css/flexslider.css
+
+    javascript:
+      - flexslider/js/jquery.flexslider.js
+      - flexSliderActive.js
+      
+  catalogo:
+    stylesheet:      
+      - addons/css/style.css
+      - photo-wall/jquery-photowall.css
+
+    javascript:
+      - photo-wall/jquery-photowall.js
+      - photowallActive.js
+      
+  sistema:
+    stylesheet:
+      - camera/camera.css
+      - addons/css/style.css
+
+    javascript:
+      - index.js
+      - camera/camera.js
+      
+  contactenos:
+    stylesheet:      
+#      - addons/css/style.css
+#      - photo-wall/jquery-photowall.css
+#      - camera/camera.css
+      - addons/css/style.css
+      - camera/camera.css
+
+    javascript:
+#      - photo-wall/jquery-photowall.js
+#      - photowallActive.js
+      - index.js
+      - camera/camera.js
+
+  signup:
+      stylesheet:
+        - adminTemplate/style.css
+        - adminTemplate/pages/signin.css
+        - errormesage/jquery.toastmessage-min.css
+
+      javascript:
+        - preFabricados/signup.js
+        - errormesage/jquery.toastmessage-min.js
+        - preFabricados/createUser.js
+      
+admin:
+  admin:
+    stylesheet:  
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css      
+      - adminTemplate/font-awesome.css
+      - confirmaremergente/jquery-ui.css
+      - errormesage/jquery.toastmessage-min.css
+      - adminTemplate/pages/signin.css?1.2
+      - datepicker/jquery-ui-1.7.2.custom.css
+      
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+      - confirmaremergente/jquery-ui.js
+      - adminTemplate/guidely/guidely.min.js    
+      - errormesage/jquery.toastmessage-min.js
+      - datepicker/activeDatepicker.js
+      - usuario/paginador.js
+      - usuario/delete.js
+      - usuario/deleteSelect.js
+      - usuario/filtrar.js
+      - usuario/deleteFilters.js
+      - usuario/selectAll.js
+      
+usuario:
+  edit:
+    stylesheet:  
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css      
+      - adminTemplate/font-awesome.css
+      - errormesage/jquery.toastmessage-min.css?1.1
+      - adminTemplate/pages/signin.css?1.1
+      - confirmaremergente/jquery-ui.css
+      - datepicker/jquery-ui-1.7.2.custom.css?1.2   
+      
+      
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+      - adminTemplate/guidely/guidely.min.js
+      - errormesage/jquery.toastmessage-min.js
+      - confirmaremergente/jquery-ui.js
+      - datepicker/activeDatepicker.js
+      - usuario/update.js?1.4
+      
+  insert:
+    stylesheet:  
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css
+      - adminTemplate/pages/signin.css?1.3
+      - adminTemplate/font-awesome.css 
+      - errormesage/jquery.toastmessage-min.css?1.1
+      - confirmaremergente/jquery-ui.css
+      - datepicker/jquery-ui-1.7.2.custom.css?1.2   
+      
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+      - adminTemplate/guidely/guidely.min.js
+      - errormesage/jquery.toastmessage-min.js
+      - confirmaremergente/jquery-ui.js?1.186
+      - datepicker/activeDatepicker.js?1.3
+      - usuario/create.js?1.12
+      
+localidad:
+  index:
+    stylesheet:  
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css      
+      - adminTemplate/font-awesome.css
+      - confirmaremergente/jquery-ui.css
+      - errormesage/jquery.toastmessage-min.css?1.1
+      - adminTemplate/pages/signin.css?1.2
+#      - confirmaremergente/layout.css
+      - datepicker/jquery-ui-1.7.2.custom.css?1.2      
+      
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+#      - confirmaremergente/jquery-1.8.2.js
+      - confirmaremergente/jquery-ui.js?1.186     
+      - adminTemplate/guidely/guidely.min.js    
+      - errormesage/jquery.toastmessage-min.js    
+      - datepicker/activeDatepicker.js?1.1
+      - localidad/paginador.js?1.6
+      - localidad/delete.js?1.9
+      - localidad/deleteSelect.js?1.5
+      - localidad/filtrar.js?1.31
+      - localidad/deleteFilters.js?1.2
+      - localidad/selectAll.js?1.6
+
+  edit:
+    stylesheet:  
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css      
+      - adminTemplate/font-awesome.css 
+#      - adminTemplate/bootstrap.min.css
+      - confirmaremergente/jquery-ui.css
+      - datepicker/jquery-ui-1.7.2.custom.css?1.2  
+      - errormesage/jquery.toastmessage-min.css?1.1
+      - adminTemplate/pages/signin.css?1.1
+      
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+#      - adminTemplate/charts/area.js
+#      - adminTemplate/charts/bar.js
+#      - adminTemplate/charts/donut.js
+#      - adminTemplate/charts/line.js
+#      - adminTemplate/charts/pie.js
+      - adminTemplate/guidely/guidely.min.js
+      - errormesage/jquery.toastmessage-min.js
+      - confirmaremergente/jquery-ui.js?1.186
+      - localidad/update.js?1.5
+      
+  insert:
+    stylesheet:  
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css
+      - adminTemplate/pages/signin.css?1.1
+      - adminTemplate/font-awesome.css 
+      - confirmaremergente/jquery-ui.css
+      - datepicker/jquery-ui-1.7.2.custom.css?1.2  
+#      - adminTemplate/bootstrap.min.css
+      
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+#      - adminTemplate/charts/area.js
+#      - adminTemplate/charts/bar.js
+#      - adminTemplate/charts/donut.js
+#      - adminTemplate/charts/line.js
+#      - adminTemplate/charts/pie.js
+      - adminTemplate/guidely/guidely.min.js
+      - confirmaremergente/jquery-ui.js?1.186
+      - errormesage/jquery.toastmessage-min.js
+      - localidad/create.js?1.7
+#      - confirmaremergente/jquery-1.8.2.js
+
+tipoDocumento:
+  index:
+    stylesheet:  
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css      
+      - adminTemplate/font-awesome.css
+      - confirmaremergente/jquery-ui.css
+      - errormesage/jquery.toastmessage-min.css?1.1
+      - adminTemplate/pages/signin.css?1.2
+      - datepicker/jquery-ui-1.7.2.custom.css?1.2      
+      
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+      #- confirmaremergente/jquery-1.8.2.js
+      - confirmaremergente/jquery-ui.js?1.186
+      - adminTemplate/guidely/guidely.min.js    
+      - errormesage/jquery.toastmessage-min.js 
+      - datepicker/activeDatepicker.js?1.1
+      - tipoDocumento/paginador.js?1.6
+      - tipoDocumento/delete.js?1.10
+      - tipoDocumento/deleteSelect.js?1.6
+      - tipoDocumento/filtrar.js?1.32
+      - tipoDocumento/deleteFilters.js?1.2
+      - tipoDocumento/selectAll.js?1.7
+
+  edit:
+    stylesheet:  
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css      
+      - adminTemplate/font-awesome.css 
+      - confirmaremergente/jquery-ui.css
+      - errormesage/jquery.toastmessage-min.css?1.1
+      - adminTemplate/pages/signin.css?1.1
+      
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+      #- confirmaremergente/jquery-1.8.2.js
+      - confirmaremergente/jquery-ui.js?1.186
+      - adminTemplate/guidely/guidely.min.js
+      - errormesage/jquery.toastmessage-min.js
+      - tipoDocumento/update.js?1.8
+      
+  insert:
+    stylesheet:  
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css
+      - adminTemplate/pages/signin.css?1.1
+      - adminTemplate/font-awesome.css 
+      - confirmaremergente/jquery-ui.css
+      - errormesage/jquery.toastmessage-min.css?1.1
+      
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+      #- confirmaremergente/jquery-1.8.2.js
+      - confirmaremergente/jquery-ui.js?1.186
+      - adminTemplate/guidely/guidely.min.js
+      - errormesage/jquery.toastmessage-min.js
+      - tipoDocumento/create.js?1.8
+
+organizacion:
+  index:
+    stylesheet:  
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css      
+      - adminTemplate/font-awesome.css
+      - confirmaremergente/jquery-ui.css
+      - errormesage/jquery.toastmessage-min.css?1.1
+      - adminTemplate/pages/signin.css?1.2
+      - datepicker/jquery-ui-1.7.2.custom.css?1.2      
+      
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+      #- confirmaremergente/jquery-1.8.2.js
+      - confirmaremergente/jquery-ui.js?1.186
+      - adminTemplate/guidely/guidely.min.js    
+      - errormesage/jquery.toastmessage-min.js      
+      - datepicker/activeDatepicker.js?1.1
+      - organizacion/paginador.js?1.6
+      - organizacion/delete.js?1.12
+      - organizacion/deleteSelect.js?1.8
+      - organizacion/filtrar.js?1.33
+      - organizacion/deleteFilters.js?1.2
+      - organizacion/selectAll.js?1.8
+
+  edit:
+    stylesheet:  
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css      
+      - adminTemplate/font-awesome.css 
+      - errormesage/jquery.toastmessage-min.css?1.1
+      - adminTemplate/pages/signin.css?1.1
+      
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+      - adminTemplate/guidely/guidely.min.js
+      - errormesage/jquery.toastmessage-min.js
+      - organizacion/update.js?1.9
+      
+  insert:
+    stylesheet:  
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css
+      - adminTemplate/pages/signin.css?1.1
+      - adminTemplate/font-awesome.css 
+      
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+      - adminTemplate/guidely/guidely.min.js
+      - errormesage/jquery.toastmessage-min.js
+      - organizacion/create.js?1.10
+      
+patrocinador:
+  index:
+    stylesheet:  
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css      
+      - adminTemplate/font-awesome.css
+      - confirmaremergente/jquery-ui.css
+      - errormesage/jquery.toastmessage-min.css?1.1
+      - adminTemplate/pages/signin.css?1.2
+      - datepicker/jquery-ui-1.7.2.custom.css?1.2      
+      
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+      #- confirmaremergente/jquery-1.8.2.js
+      - confirmaremergente/jquery-ui.js?1.186
+      - adminTemplate/guidely/guidely.min.js    
+      - errormesage/jquery.toastmessage-min.js 
+      - datepicker/activeDatepicker.js?1.1
+      - patrocinador/paginador.js?1.6
+      - patrocinador/delete.js?1.11
+      - patrocinador/deleteSelect.js?1.7
+      - patrocinador/filtrar.js?1.33
+      - patrocinador/deleteFilters.js?1.2
+      - patrocinador/selectAll.js?1.9
+
+  edit:
+    stylesheet:  
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css      
+      - adminTemplate/font-awesome.css 
+      - confirmaremergente/jquery-ui.css
+      - errormesage/jquery.toastmessage-min.css?1.1
+      - adminTemplate/pages/signin.css?1.1
+      
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+      #- confirmaremergente/jquery-1.8.2.js
+      - confirmaremergente/jquery-ui.js?1.186
+      - adminTemplate/guidely/guidely.min.js
+      - errormesage/jquery.toastmessage-min.js
+      - patrocinador/update.js?1.9
+      
+  insert:
+    stylesheet:  
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css
+      - adminTemplate/pages/signin.css?1.1
+      - adminTemplate/font-awesome.css 
+      - confirmaremergente/jquery-ui.css
+      - errormesage/jquery.toastmessage-min.css?1.1
+      
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+      #- confirmaremergente/jquery-1.8.2.js
+      - confirmaremergente/jquery-ui.js?1.186
+      - adminTemplate/guidely/guidely.min.js
+      - errormesage/jquery.toastmessage-min.js
+      - patrocinador/create.js?1.9
+      
+categoria:
+  index:
+    stylesheet:  
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css      
+      - adminTemplate/font-awesome.css
+      - confirmaremergente/jquery-ui.css
+      - errormesage/jquery.toastmessage-min.css?1.1
+      - adminTemplate/pages/signin.css?1.2
+      - datepicker/jquery-ui-1.7.2.custom.css?1.2      
+      
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+      #- confirmaremergente/jquery-1.8.2.js
+      - confirmaremergente/jquery-ui.js?1.186
+      - adminTemplate/guidely/guidely.min.js    
+      - errormesage/jquery.toastmessage-min.js 
+      - datepicker/activeDatepicker.js?1.1
+      - categoria/paginador.js?1.6
+      - categoria/delete.js?1.12
+      - categoria/deleteSelect.js?1.9
+      - categoria/filtrar.js?1.32
+      - categoria/deleteFilters.js?1.2
+      - categoria/selectAll.js?1.10
+
+  edit:
+    stylesheet:  
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css      
+      - adminTemplate/font-awesome.css 
+      - confirmaremergente/jquery-ui.css
+      - errormesage/jquery.toastmessage-min.css?1.1
+      - adminTemplate/pages/signin.css?1.1
+      
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+      #- confirmaremergente/jquery-1.8.2.js
+      - confirmaremergente/jquery-ui.js?1.186
+      - adminTemplate/guidely/guidely.min.js
+      - errormesage/jquery.toastmessage-min.js
+      - categoria/update.js?1.11  
+      
+  insert:
+    stylesheet:  
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css
+      - adminTemplate/pages/signin.css?1.1
+      - adminTemplate/font-awesome.css 
+      - confirmaremergente/jquery-ui.css
+      - errormesage/jquery.toastmessage-min.css?1.1
+      
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+      #- confirmaremergente/jquery-1.8.2.js
+      - confirmaremergente/jquery-ui.js?1.186
+      - adminTemplate/guidely/guidely.min.js
+      - errormesage/jquery.toastmessage-min.js
+      - categoria/create.js?1.10
+      
+tarifa:
+  index:
+    stylesheet:  
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css      
+      - adminTemplate/font-awesome.css
+      - confirmaremergente/jquery-ui.css
+      - errormesage/jquery.toastmessage-min.css?1.1
+      - adminTemplate/pages/signin.css?1.2
+      - datepicker/jquery-ui-1.7.2.custom.css?1.2      
+      
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+      #- confirmaremergente/jquery-1.8.2.js
+      - confirmaremergente/jquery-ui.js?1.186
+      - adminTemplate/guidely/guidely.min.js    
+      - errormesage/jquery.toastmessage-min.js 
+      - datepicker/activeDatepicker.js?1.1
+      - tarifa/paginador.js?1.6
+      - tarifa/delete.js?1.11
+      - tarifa/deleteSelect.js?1.8
+      - tarifa/filtrar.js?1.33
+      - tarifa/deleteFilters.js?1.2
+      - tarifa/selectAll.js?1.8
+
+  edit:
+    stylesheet:  
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css      
+      - adminTemplate/font-awesome.css 
+      - confirmaremergente/jquery-ui.css
+      - errormesage/jquery.toastmessage-min.css?1.1
+      - adminTemplate/pages/signin.css?1.1
+      
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+      #- confirmaremergente/jquery-1.8.2.js
+      - confirmaremergente/jquery-ui.js?1.186
+      - adminTemplate/guidely/guidely.min.js
+      - errormesage/jquery.toastmessage-min.js
+      - tarifa/update.js?1.10
+      
+  insert:
+    stylesheet:  
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css
+      - adminTemplate/pages/signin.css?1.1
+      - adminTemplate/font-awesome.css 
+      - confirmaremergente/jquery-ui.css
+      - errormesage/jquery.toastmessage-min.css?1.1
+      
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+      #- confirmaremergente/jquery-1.8.2.js
+      - confirmaremergente/jquery-ui.js?1.186
+      - adminTemplate/guidely/guidely.min.js
+      - errormesage/jquery.toastmessage-min.js
+      - tarifa/create.js?1.9
+      
+tipoPqrs:
+  index:
+    stylesheet:  
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css      
+      - adminTemplate/font-awesome.css
+      - confirmaremergente/jquery-ui.css
+      - errormesage/jquery.toastmessage-min.css?1.1
+      - adminTemplate/pages/signin.css?1.2
+      - datepicker/jquery-ui-1.7.2.custom.css?1.2      
+      
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+      #- confirmaremergente/jquery-1.8.2.js
+      - confirmaremergente/jquery-ui.js?1.186
+      - adminTemplate/guidely/guidely.min.js    
+      - errormesage/jquery.toastmessage-min.js 
+      - datepicker/activeDatepicker.js?1.1
+      - tipoPqrs/paginador.js?1.6
+      - tipoPqrs/delete.js?1.12
+      - tipoPqrs/deleteSelect.js?1.9
+      - tipoPqrs/filtrar.js?1.34
+      - tipoPqrs/deleteFilters.js?1.2
+      - tipoPqrs/selectAll.js?1.9
+
+  edit:
+    stylesheet:  
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css      
+      - adminTemplate/font-awesome.css 
+      - confirmaremergente/jquery-ui.css
+      - errormesage/jquery.toastmessage-min.css?1.1
+      - adminTemplate/pages/signin.css?1.1
+      
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+      #- confirmaremergente/jquery-1.8.2.js
+      - confirmaremergente/jquery-ui.js?1.186
+      - adminTemplate/guidely/guidely.min.js
+      - errormesage/jquery.toastmessage-min.js
+      - tipoPqrs/update.js?1.11
+      
+  insert:
+    stylesheet:  
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css
+      - adminTemplate/pages/signin.css?1.1
+      - adminTemplate/font-awesome.css 
+      - confirmaremergente/jquery-ui.css
+      - errormesage/jquery.toastmessage-min.css?1.1
+      
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+      #- confirmaremergente/jquery-1.8.2.js
+      - confirmaremergente/jquery-ui.js?1.186
+      - adminTemplate/guidely/guidely.min.js
+      - errormesage/jquery.toastmessage-min.js
+      - tipoPqrs/create.js?1.10
+      
+estadoPqrs:
+  index:
+    stylesheet:  
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css      
+      - adminTemplate/font-awesome.css
+      - confirmaremergente/jquery-ui.css
+      - errormesage/jquery.toastmessage-min.css?1.1
+      - adminTemplate/pages/signin.css?1.2
+      - datepicker/jquery-ui-1.7.2.custom.css?1.2
+      
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+      #- confirmaremergente/jquery-1.8.2.js
+      - confirmaremergente/jquery-ui.js?1.186
+      - adminTemplate/guidely/guidely.min.js    
+      - errormesage/jquery.toastmessage-min.js 
+      - datepicker/activeDatepicker.js?1.1
+      - estadoPqrs/paginador.js?1.6
+      - estadoPqrs/delete.js?1.14
+      - estadoPqrs/deleteSelect.js?1.11
+      - estadoPqrs/filtrar.js?1.35
+      - estadoPqrs/deleteFilters.js?1.2
+      - estadoPqrs/selectAll.js?1.10
+
+  edit:
+    stylesheet:  
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css      
+      - adminTemplate/font-awesome.css 
+      - confirmaremergente/jquery-ui.css
+      - errormesage/jquery.toastmessage-min.css?1.1
+      - adminTemplate/pages/signin.css?1.1
+      
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+      #- confirmaremergente/jquery-1.8.2.js
+      - confirmaremergente/jquery-ui.js?1.186
+      - adminTemplate/guidely/guidely.min.js
+      - errormesage/jquery.toastmessage-min.js
+      - estadoPqrs/update.js?1.12
+      
+  insert:
+    stylesheet:  
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css
+      - adminTemplate/pages/signin.css?1.1
+      - adminTemplate/font-awesome.css 
+      - confirmaremergente/jquery-ui.css
+      - errormesage/jquery.toastmessage-min.css?1.1
+      
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+      #- confirmaremergente/jquery-1.8.2.js
+      - confirmaremergente/jquery-ui.js?1.186
+      - adminTemplate/guidely/guidely.min.js
+      - errormesage/jquery.toastmessage-min.js
+      - estadoPqrs/create.js?1.11
+    
+credencial:
+  index:
+    stylesheet:  
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css      
+      - adminTemplate/font-awesome.css
+      - confirmaremergente/jquery-ui.css
+      - errormesage/jquery.toastmessage-min.css?1.1
+      - adminTemplate/pages/signin.css?1.2
+      - datepicker/jquery-ui-1.7.2.custom.css?1.2
+      
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+      #- confirmaremergente/jquery-1.8.2.js
+      - confirmaremergente/jquery-ui.js?1.186
+      - adminTemplate/guidely/guidely.min.js    
+      - errormesage/jquery.toastmessage-min.js 
+      - datepicker/activeDatepicker.js?1.1
+      - credencial/paginador.js?1.6
+      - credencial/delete.js?1.16
+      - credencial/deleteSelect.js?1.11
+      - credencial/filtrar.js?1.36
+      - credencial/deleteFilters.js?1.2
+      - credencial/selectAll.js?1.11
+
+  edit:
+    stylesheet:  
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css      
+      - adminTemplate/font-awesome.css 
+      - confirmaremergente/jquery-ui.css
+      - errormesage/jquery.toastmessage-min.css
+      - adminTemplate/pages/signin.css?1.1
+      
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+      #- confirmaremergente/jquery-1.8.2.js
+      - confirmaremergente/jquery-ui.js?1.186
+      - adminTemplate/guidely/guidely.min.js
+      - errormesage/jquery.toastmessage-min.js
+      - credencial/update.js?1.13
+      
+  insert:
+    stylesheet:  
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css
+      - adminTemplate/pages/signin.css?1.1
+      - adminTemplate/font-awesome.css 
+      - confirmaremergente/jquery-ui.css
+      - errormesage/jquery.toastmessage-min.css?1.1
+      
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+      #- confirmaremergente/jquery-1.8.2.js
+      - confirmaremergente/jquery-ui.js?1.186
+      - adminTemplate/guidely/guidely.min.js
+      - errormesage/jquery.toastmessage-min.js
+      - credencial/create.js?1.12
+      
+
+evento:
+  index:
+    stylesheet:  
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css
+      - adminTemplate/font-awesome.css
+      - confirmaremergente/jquery-ui.css
+      - errormesage/jquery.toastmessage-min.css
+      - adminTemplate/pages/signin.css?1.2
+      - datepicker/jquery-ui-1.7.2.custom.css?1.2      
+      
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+      #- confirmaremergente/jquery-1.8.2.js
+      - confirmaremergente/jquery-ui.js?1.186
+      - adminTemplate/guidely/guidely.min.js    
+      - errormesage/jquery.toastmessage-min.js 
+      - datepicker/activeDatepicker.js?1.1
+      - evento/paginador.js?1.6
+      - evento/delete.js?1.17
+      - evento/deleteSelect.js?1.12
+      - evento/filtrar.js?1.37
+      - evento/deleteFilters.js?1.2
+      - evento/selectAll.js?1.12
+
+  edit:
+    stylesheet:  
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css      
+      - adminTemplate/font-awesome.css 
+      - confirmaremergente/jquery-ui.css
+      - errormesage/jquery.toastmessage-min.css?1.1
+      - adminTemplate/pages/signin.css?1.1
+      - datepicker/jquery-ui-1.7.2.custom.css?1.2
+      
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+      #- confirmaremergente/jquery-1.8.2.js
+      - confirmaremergente/jquery-ui.js
+      - adminTemplate/guidely/guidely.min.js
+      - errormesage/jquery.toastmessage-min.js
+      - evento/update.js
+      - datepicker/activeDatepicker.js
+      
+  insert:
+    stylesheet:  
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css
+      - adminTemplate/pages/signin.css
+      - adminTemplate/font-awesome.css 
+      - confirmaremergente/jquery-ui.css
+      - errormesage/jquery.toastmessage-min.css
+      - datepicker/jquery-ui-1.7.2.custom.css
+      
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+      #- confirmaremergente/jquery-1.8.2.js
+      - confirmaremergente/jquery-ui.js
+      - adminTemplate/guidely/guidely.min.js
+      - errormesage/jquery.toastmessage-min.js
+      - evento/create.js
+      - datepicker/activeDatepicker.js
+      
+eventos:
+  index:
+    stylesheet:      
+      - camera/camera.css
+      - addons/css/style.css
+      - eventos/eventos.css
+      - adminTemplate/style.css
+      - adminTemplate/font-awesome.css
+
+    javascript:
+      - eventos/paginador.js
+      - eventos/eventos.js
+      - eventos/buscar.js
+      - components/autocomplete/autocomplete-eventoui.js
+      
+  evento:
+    stylesheet:
+      - addons/css/style.css
+      - eventos/eventoDetalle.css
+      
+    javascript:
+      - eventos/eventoDetalle.js
+
+  registrarEventoUi:
+    stylesheet:
+      - adminTemplate/base-admin-responsive.css
+      - adminTemplate/style.css
+      - adminTemplate/pages/dashboard.css
+      - adminTemplate/pages/faq.css
+      - adminTemplate/pages/plans.css
+      - adminTemplate/pages/reports.css
+      - adminTemplate/pages/signin.css
+      - adminTemplate/font-awesome.css
+      - confirmaremergente/jquery-ui.css
+      - errormesage/jquery.toastmessage-min.css
+      - datepicker/jquery-ui-1.7.2.custom.css
+
+    javascript:
+      - adminTemplate/base.js
+      - adminTemplate/chart.min.js
+      - adminTemplate/excanvas.min.js
+      - adminTemplate/faq.js
+      - adminTemplate/signin.js
+      #- confirmaremergente/jquery-1.8.2.js
+      - confirmaremergente/jquery-ui.js
+      - adminTemplate/guidely/guidely.min.js
+      - errormesage/jquery.toastmessage-min.js
+      - eventos/createEventoUi.js
+      - datepicker/activeDatepicker.js
+  
+usuarioUi:
+  index:
+    stylesheet:
+      - usuarioUi/index.css
+      - confirmaremergente/jquery-ui.css
+      - datepicker/jquery-ui-1.7.2.custom.css
+      - errormesage/jquery.toastmessage-min.css
+      
+    javascript:
+      - usuarioUi/index.js
+      - confirmaremergente/jquery-ui.js
+      - usuarioUi/activeDatepicker.js
+      - components/autocomplete/autocomplete-userui.js
+      - usuarioUi/showpass.js
+      - usuarioUi/update.js
+      - errormesage/jquery.toastmessage-min.js
+      - usuarioUi/paginadorEventos.js

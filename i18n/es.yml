@@ -1,0 +1,119 @@
+# Diccionario de ejemplo
+culture:                  Español
+dictionary:
+  default:
+    user:                 Usuario
+    pass:                 Contraseña
+    register:             Registro
+    update:               Actualizar
+    signup:               Regístrate
+  errors:
+    
+    00001:                El nombre de usuario no puede tener mas de :longitud caracteres.
+    00002:                La contraseña no puede tener mas de :longitud caracteres.
+    00003:                El campo nombre de usuario no puede estar vacio.
+    00004:                El campo contraseña no puede estar vacio.
+    00005:                El campo confirmar contraseña no puede estar vacio.
+    00006:                Los campos contraseña y confirmar contraseña no son iguales.
+    00007:                El campo nombre no puede estar vacio.
+    00010:                El campo direccion no puede estar vacio.
+    00011:                El campo telefono no puede estar vacio.
+    00012:                El campo correo no puede estar vacio.
+    00013:                El correo ingresado no es valido.
+    00014:                El campo nombre no puede estar vacio.
+    00015:                El campo apellido no puede estar vacio.
+    00016:                El campo correo no puede estar vacio.
+    00017:                Debe escoger un genero.
+    00020:                El campo fecha nacimiento no puede estar vacio.
+    00021:                Debe escoger una localidad.
+    00022:                Debe escoger un tipo de documento.
+    00023:                El nombre no puede tener mas de :longitud caracteres.
+    00024:                El telefono no puede tener mas de :longitud caracteres.
+    00025:                El correo no puede tener mas de :longitud caracteres.
+    00026:                La dirección no puede tener mas de :longitud caracteres.
+    00027:                El campo descripcion no puede estar vacio.
+    00030:                El campo valor no puede estar vacio.
+    00031:                Debe escoger un estado para la tarifa.
+    00032:                La descripcion no puede tener mas de :longitud caracteres.
+    00033:                Debe escoger un estado para el tipo de pqrs.
+    00034:                Debe escoger un estado para el estado de pqrs.
+    00035:                El campo fecha inicial no puede estar vacio.
+    00036:                El campo fecha final no puede estar vacio.
+    00037:                El campo latitud no puede estar vacio.
+    00040:                El campo longitud no puede estar vacio.
+    00041:                El nombre no puede tener mas de :longitud de caracteres.
+    00042:                La latitud no puede tener mas de :longitud de caracteres.
+    00043:                La longitud no puede tener mas de :longitud de caracteres.
+    00044:                El campo direccion no puede tener mas de :longitud de caracteres.
+    00045:                El campo costo no puede estar vacio.
+    00046:                Debe escoger un usuario para el evento.
+    00047:                El campo fecha inicial de publicacion no puede estar vacio.
+    00050:                El campo fecha final de publicacion no puede estar vacio.
+    00051:                El costo debe ser un valor numerico.
+    00052:                El archivo seleccionado debe ser una imagen.
+    00053:                La imagen seleccionada debe ser de extension png o jpg.
+    00054:                El nombre de usurio ingresado ya existe, por favor ingrese un nombre de usuario diferente.
+
+  success:
+    00001:                El usuario :username fue creado correctamente.
+    00002:                El usuario :username fue actualizado correctamente.
+    00003:                El usuario :username fue eliminado correctamente.
+    00004:                Los usuarios seleccionados fueron eliminados correctamente.
+    00005:                La localidad :localidad fue creada correctamente.
+    00006:                La localidad :localidad fue eliminada correctamente.
+    00007:                Las localidades seleccionadas fueron eliminadas correctamente.
+    00010:                La localidad :localidad fue actualizada correctamente.
+    00011:                El tipo de documento :tipoDocumento fue creado correctamente.
+    00012:                El tipo de documento :tipoDocumento fue eliminado correctamente.
+    00013:                La organizacion :organizacion fue creada correctamente.
+    00014:                La organizacion :organizacion fue actualizada correctamente.
+    00015:                La organizacion :organizacion fue eliminada correctamente.
+    00016:                Las organizaciones seleccionadas fueron eliminadas correctamente.
+    00017:                El tipo de documento :tipoDocumento fue actualizado correctamente.
+    00020:                El patrocinador :patrocinador fue creado correctamente.
+    00021:                El patrocinador :patrocinador fue actualizado correctamente.
+    00022:                El patrocinador :patrocinador fue eliminado correctamente.
+    00023:                Los patrocinadores seleccionados fueron eliminados correctamente.
+    00024:                La categoria :categoria fue creada correctamente.
+    00025:                La categoria :categoria fue actualizada correctamente.
+    00026:                La categoria :categoria fue eliminada correctamente.
+    00027:                Las categorias seleccionadas fueron eliminadas correctamente.
+    00030:                La tarifa fue creada correctamente.
+    00031:                La tarifa fue actualizada correctamente.
+    00032:                La tarifa fue eliminada correctamente.
+    00033:                Las tarifas seleccionadas fueron eliminadas correctamente.
+    00034:                El tipo de pqrs :tipoPqrs fue creado correctamente.
+    00035:                El tipo de pqrs :tipoPqrs fue actualizado correctamente.
+    00036:                El tipo de pqrs :tipoPqrs fue eliminado correctamente.
+    00037:                Los tipos de pqrs seleccionados fueron eliminados correctamente.
+    00040:                El estado de pqrs :estadoPqrs fue creado correctamente.
+    00041:                El estado de pqrs :estadoPqrs fue actualizado correctamente.
+    00042:                El estado de pqrs :estadoPqrs fue eliminado correctamente.
+    00043:                Los estados de pqrs seleccionados fueron eliminados correctamente.
+    00044:                La credencial :credencial fue creada correctamente.
+    00045:                La credencial :credencial fue actualizada correctamente.
+    00046:                La credencial :credencial fue eliminada correctamente.
+    00047:                Las credenciales seleccionadas fueron eliminadas correctamente.
+    00050:                El evento fue creado correctamente.
+    00051:                El evento fue actualizado correctamente.
+    00052:                El evento :evento fue eliminado correctamente.
+    00053:                Los eventos seleccionados fueron eliminados correctamente.
+    00054:                El patrocinador :patrocinador fue eliminado correctamente.
+    00055:                La credencial :credencial fue eliminada correctamente.
+    
+  mes:
+    00001:                Enero
+    00002:                Febrero
+    00003:                Marzo
+    00004:                Abril
+    00005:                Mayo
+    00006:                Junio
+    00007:                Julio
+    00010:                Agosto
+    00011:                Septiembre
+    00012:                Octubre
+    00013:                Noviembre
+    00014:                Diciembre
+
+  phrases:
+    00001:                :dia de :mes de :year

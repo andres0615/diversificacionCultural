@@ -1,0 +1,251 @@
+@font-face {
+font-family: 'nobilty';
+src: url('../../fonts/nobilty.eot');
+src: url('../../fonts/nobilty.eot?#iefix') format('embedded-opentype'), url('../../fonts/nobilty.woff') format('woff'), url('../../fonts/nobilty.ttf') format('truetype'), url('../../fonts/nobilty.svg#nobilty') format('svg');
+}
+
+@font-face {
+font-family: 'Geometos';
+src: url('../../fonts/Geometos.eot');
+src: url('../../fonts/Geometos.eot?#iefix') format('embedded-opentype'), url('../../fonts/Geometos.woff') format('woff'), url('../../fonts/Geometos.ttf') format('truetype'), url('../../fonts/Geometos.svg#Geometos') format('svg');
+}
+
+@font-face {
+font-family: 'Sansation_Light';
+src: url('../../fonts/Sansation_Light.eot');
+src: url('../../fonts/Sansation_Light.eot?#iefix') format('embedded-opentype'), url('../../fonts/Sansation_Light.woff') format('woff'), url('../../fonts/Sansation_Light.ttf') format('truetype'), url('../../fonts/Sansation_Light.svg#Sansation_Light') format('svg');
+}
+
+@font-face {
+font-family: 'enigma';
+src: url('../../fonts/enigma.eot');
+src: url('../../fonts/enigma.eot?#iefix') format('embedded-opentype'), url('../../fonts/enigma.woff') format('woff'), url('../../fonts/enigma.ttf') format('truetype'), url('../../fonts/enigma.svg#enigma') format('svg');
+}
+
+.evento-detalle-item {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  padding: 1.5em 2.5em;
+}
+
+.evento-detalle-item-title h4 {
+  font-family: 'Geometos';
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.evento-detalle-item-title {
+  border-bottom: .1em solid rgba(0,0,0,0.3);
+  margin-bottom: 1.5em;
+}
+
+.evento-img {
+  width: 100%;
+  padding: 0 3em;
+  margin: 2em 0;
+}
+
+.evento-img img {
+  width: 100%;
+}
+
+.evento-detalle-item-description {
+  font-family: 'Sansation_Light';
+  text-align: justify;
+}
+
+.tt-wrapper {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.tt-wrapper li a span {
+  background: rgba(255,255,255,1);
+}
+
+.evento-detalle-item2 {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  padding: 1.5em 1.5em;
+}
+
+/*.dato-realizacion-item .dato {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.dato-realizacion-item .etiqueta {
+  color: rgba(0,0,0,0.7);
+}
+
+.dato-realizacion-item .etiqueta {
+  margin: 0;
+}*/
+
+.evento-datos-realizacion {
+  text-align: left;
+  margin: .5em 0;
+}
+
+.evento-datos-realizacion .fecha {
+  width: 10em;
+  margin: 0 auto;
+  background-color: rgba(0,0,0,0.02);
+  padding: 0.1em 1em .8em 1em;
+  border-radius: 0.5em;
+  border: solid 0.08em rgba(0,0,0,0.2);
+}
+
+.evento-datos-realizacion .fecha .year, .evento-datos-realizacion .fecha .date {
+  display: block;
+  width: 100%;
+  margin: 0.2em 0;
+} 
+
+.evento-datos-realizacion .fecha .year {
+  font-size: 2em;
+  text-align: center;
+  color: rgba(0,0,0,0.5);
+  border-bottom: solid rgba(0,0,0,0.5) .05em;
+}
+
+.evento-datos-realizacion .fecha .date {
+  text-align: center;
+  color: rgba(0,0,0,0.5);
+}
+
+.evento-datos-realizacion .item1 .etiqueta {
+  color: rgba(0,0,0,0.7);
+  font-family: arial;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  margin: .5em auto;
+  font-family: 'Sansation_Light';
+  width: 10em;
+}
+
+.evento-datos-realizacion .item1 {
+  text-align: center;
+  width: 100%;
+  margin: 0.5em 0;
+}
+
+.evento-datos-realizacion .dato {
+  text-align: center;
+  width: 100%;
+}
+
+
+.mapa-datos {
+  width: 100%;
+}
+
+
+.mapa-datos .datos {
+  /*width: 40%;*/
+}
+
+
+.evento-datos-realizacion .item2 .etiqueta {
+  color: rgba(0,0,0,0.7);
+  font-family: arial;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  margin: .5em auto;
+  font-family: 'Sansation_Light';
+  width: 10em;
+}
+
+.evento-datos-realizacion .item2 {
+  text-align: center;
+  width: 100%;
+  margin-top: 1.5em;
+}
+
+.evento-datos-realizacion .item2 .dato p {
+  font-family: 'Sansation_Light';
+}
+
+.evento-comentarios-item {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  padding: 1.5em 2.5em;
+  margin: 1em 0;
+}
+
+.evento-comentarios-item-title h4 {
+  /*font-family: 'Geometos';*/
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.evento-comentarios-item-title {
+  border-bottom: .1em solid rgba(0,0,0,0.3);
+  margin-bottom: 1.5em;
+}
+
+.comentario-input textarea {
+  width: 100%; 
+  max-width: 100%; 
+  min-height: 4em; 
+  font-size: 1em; 
+  color: #8e8d8d;
+  border-radius: .3em;
+}
+
+.evento-organizador {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  padding: 1.5em 2.5em;
+  margin-bottom: 1em;
+}
+
+.evento-organizador .evento-organizador-title {
+  /*border-bottom: .3em solid rgba(252,66,20,1);
+  margin-bottom: 1.5em;*/
+  text-align: center;
+}
+
+.item-side-hr-red {
+  border-bottom: .3em solid rgba(252,66,20,1);
+  margin: 0 auto;
+  width: 35%;
+  
+}
+
+.label-dato-item-side .etiqueta p {
+  font-weight: bold;
+  font-family: 'Sansation_Light';
+}
+
+.label-dato-item-side .dato p {
+  font-family: 'Sansation_Light';
+}
+
+.label-dato-item-side {
+  margin: 1em 0;
+}
+
+.label-dato-item-side .etiqueta {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.label-dato-item-side .dato {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.label-dato-item-side p {
+  margin: 0;
+}
+
+.comentario-submit {
+  background-color: #FFDA43;
+  border-color: #B6A07A #B6A07A #B6A07A;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.15);
+  background-image: linear-gradient(rgba(177, 181, 170, 0), rgba(0, 0, 0, 0.1));
+  color: #843316;
+  font-family: 'enigma';
+  /*font-weight: bold;*/
+}

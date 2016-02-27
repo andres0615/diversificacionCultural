@@ -1,0 +1,1045 @@
+homepage:
+  url:    /
+  param:  { module: preFabricados, action: index, format: html }
+#  load:
+#    - model/base/usuarioBaseTableClass.php
+#    - model/usuarioTableClass.php
+
+##-------------------------- shfSecurity --------------------------##
+shfSecurity_index:
+  url:    /signin
+  param:  { module: shfSecurity, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+
+shfSecurity_login:
+  url:    /login
+  param:  { module: shfSecurity, action: login, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/recordarMeBaseTableClass.php
+    - model/recordarMeTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/datoUsuarioBaseTableClass.php
+    - model/datoUsuarioTableClass.php
+
+shfSecurity_logout:
+  url:    /logout
+  param:  { module: shfSecurity, action: logout, format: html }
+  load:
+    - model/base/recordarMeBaseTableClass.php
+    - model/recordarMeTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+
+shfSecurity_noPermission:
+  url:    /sin_permisos
+  param:  { module: shfSecurity, action: noPermission, format: html }
+
+shfSecurity_exception:
+  url:    /exception
+  param:  { module: shfSecurity, action: exception, format: html }
+##-------------------------- shfSecurity --------------------------##
+
+##-------------------------- EJEMPLO --------------------------##
+default_index:
+  url:    /usuarios/index
+  param:  { module: default, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+
+default_insert:
+  url:    /usuarios/insertar
+  param:  { module: default, action: insert, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+
+default_create:
+  url:    /usuarios/crear
+  param:  { module: default, action: create, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+
+default_edit:
+  url:    /usuario/editar
+  param:  { module: default, action: edit, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+
+default_update:
+  url:    /usuario/actualizar
+  param:  { module: default, action: update, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+
+default_delete:
+  url:    /usuario/eliminar
+  param:  { module: default, action: delete, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+
+default_deleteSelect:
+  url:    /usuario/eliminarSeleccion
+  param:  { module: default, action: deleteSelect, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+
+#default_reporte:
+#  url:    /usuario/reporte
+#  param:  { module: default, action: report, format: pdf }
+#  load:
+#    - libs/fpdf/fpdf.php
+
+##-------------------------- EJEMPLO --------------------------##
+
+##-------------------------- PREFABRICADOS --------------------------##
+
+#default_deleteSelect:
+#  url:    /usuario/eliminarSeleccion
+#  param:  { module: default, action: deleteSelect, format: html }
+
+preFabricados_mision:
+  url:    /mision
+  param:  { module: preFabricados, action: mision, format: html }
+  
+preFabricados_quienesSomos:
+  url:    /quienesSomos
+  param:  { module: preFabricados, action: quienesSomos, format: html }
+  
+preFabricados_vision:
+  url:    /vision
+  param:  { module: preFabricados, action: vision, format: html }
+  
+preFabricados_galeria:
+  url:    /galeria
+  param:  { module: preFabricados, action: galeria, format: html }
+  
+preFabricados_catalogo:
+  url:    /catalogo
+  param:  { module: preFabricados, action: catalogo, format: html }
+  
+preFabricados_sistema:
+  url:    /sistema
+  param:  { module: preFabricados, action: sistema, format: html }
+  
+preFabricados_contactenos:
+  url:    /contactenos
+  param:  { module: preFabricados, action: contactenos, format: html }
+  
+preFabricados_ingresar:
+  url:    /ingresar
+  param:  { module: shfSecurity, action: ingresar, format: html }
+
+preFabricados_profileWidget:
+  url: /profileWidget
+  param:  { module: preFabricados, action: profileWidget, format: html}
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+
+preFabricados_signup:
+  url: /signup
+  param:  { module: preFabricados, action: signup, format: html}
+  load:
+    - model/base/datoUsuarioBaseTableClass.php
+    - model/datoUsuarioTableClass.php
+    - model/base/localidadBaseTableClass.php
+    - model/localidadTableClass.php
+    - model/base/datoUsuarioBaseTableClass.php
+    - model/datoUsuarioTableClass.php
+    - model/base/tipoDocumentoBaseTableClass.php
+    - model/tipoDocumentoTableClass.php
+    - model/base/organizacionBaseTableClass.php
+    - model/organizacionTableClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+
+##-------------------------- PREFABRICADOS --------------------------##
+
+##-------------------------- ADMIN --------------------------##
+
+admin_admin:
+  url:    /admin
+  param:  { module: admin, action: admin, format: html }
+
+##-------------------------- ADMIN --------------------------##
+
+##-------------------------- USUARIO --------------------------##
+
+usuario_edit:
+  url:    /usuarioEdit
+  param:  { module: usuario, action: edit, format: html }
+  load:
+    - model/base/datoUsuarioBaseTableClass.php
+    - model/datoUsuarioTableClass.php
+
+usuario_update:
+  url:    /usuarioUpdate
+  param:  { module: usuario, action: update, format: html }
+  load:
+    - model/base/datoUsuarioBaseTableClass.php
+    - model/datoUsuarioTableClass.php
+  
+usuario_create:
+  url:    /usuarioCreate
+  param:  { module: usuario, action: create, format: html }
+  load:
+    - model/base/datoUsuarioBaseTableClass.php
+    - model/datoUsuarioTableClass.php
+  
+usuario_insert:
+  url:    /usuarioInsert
+  param:  { module: usuario, action: insert, format: html }
+  load:
+    - model/base/datoUsuarioBaseTableClass.php
+    - model/datoUsuarioTableClass.php
+    - model/base/localidadBaseTableClass.php
+    - model/localidadTableClass.php
+    - model/base/datoUsuarioBaseTableClass.php
+    - model/datoUsuarioTableClass.php
+    - model/base/tipoDocumentoBaseTableClass.php
+    - model/tipoDocumentoTableClass.php
+    - model/base/organizacionBaseTableClass.php
+    - model/organizacionTableClass.php
+  
+usuario_delete:
+  url:    /usuarioDelete
+  param:  { module: usuario, action: delete, format: html }
+  
+usuario_deleteSelect:
+  url:    /usuarioDeleteSelect
+  param:  { module: usuario, action: deleteSelect, format: html }
+  
+usuario_paginador:
+  url:    /usuarioPaginador
+  param:  { module: usuario, action: paginador, format: html }
+  
+usuario_reporte:
+  url:    /reporteUsuario
+  param:  { module: usuario, action: report, format: pdf }
+  load:
+    - libs/fpdf/fpdf.php
+
+##-------------------------- USUARIO --------------------------##
+
+##-------------------------- LOCALIDAD --------------------------##
+
+localidad_index:
+  url: /localidad
+  param: { module: localidad, action: index, format: html }
+  load:
+    - model/base/localidadBaseTableClass.php
+    - model/localidadTableClass.php
+  
+localidad_edit:
+  url:    /localidadEdit
+  param:  { module: localidad, action: edit, format: html }
+  load:
+    - model/base/localidadBaseTableClass.php
+    - model/localidadTableClass.php
+  
+localidad_update:
+  url:    /localidadUpdate
+  param:  { module: localidad, action: update, format: html }
+  load:
+    - model/base/localidadBaseTableClass.php
+    - model/localidadTableClass.php
+  
+localidad_create:
+  url:    /localidadCreate
+  param:  { module: localidad, action: create, format: html }
+  load:
+    - model/base/localidadBaseTableClass.php
+    - model/localidadTableClass.php
+  
+localidad_insert:
+  url:    /localidadInsert
+  param:  { module: localidad, action: insert, format: html }
+  load:
+    - model/base/localidadBaseTableClass.php
+    - model/localidadTableClass.php
+  
+localidad_delete:
+  url:    /localidadDelete
+  param:  { module: localidad, action: delete, format: html }
+  load:
+    - model/base/localidadBaseTableClass.php
+    - model/localidadTableClass.php
+  
+localidad_deleteSelect:
+  url:    /localidadDeleteSelect
+  param:  { module: localidad, action: deleteSelect, format: html }
+  load:
+    - model/base/localidadBaseTableClass.php
+    - model/localidadTableClass.php
+  
+localidad_paginador:
+  url:    /localidadPaginador
+  param:  { module: localidad, action: paginador, format: html }
+  load:
+    - model/base/localidadBaseTableClass.php
+    - model/localidadTableClass.php
+  
+localidad_reporte:
+  url:    /localidadReporte
+  param:  { module: localidad, action: report, format: pdf }
+  load:
+    - libs/fpdf/fpdf.php
+
+##-------------------------- LOCALIDAD --------------------------##
+
+##-------------------------- COMPONENTS --------------------------##
+
+components_autoComplete:
+  url:  /autoComplete
+  param:  { module: components, action: autoComplete, format: html }
+  load:
+    - model/base/localidadBaseTableClass.php
+    - model/localidadTableClass.php
+    - model/base/tipoDocumentoBaseTableClass.php
+    - model/tipoDocumentoTableClass.php
+    - model/base/organizacionBaseTableClass.php
+    - model/organizacionTableClass.php
+    - model/base/categoriaBaseTableClass.php
+    - model/categoriaTableClass.php
+
+##-------------------------- COMPONENTS --------------------------##
+
+##-------------------------- TIPO DOCUMENTO --------------------------##
+
+tipoDocumento_index:
+  url: /tipoDocumento
+  param: { module: tipoDocumento, action: index, format: html }
+  load:
+    - model/base/tipoDocumentoBaseTableClass.php
+    - model/tipoDocumentoTableClass.php
+  
+tipoDocumento_edit:
+  url:    /tipoDocumentoEdit
+  param:  { module: tipoDocumento, action: edit, format: html }
+  load:
+    - model/base/tipoDocumentoBaseTableClass.php
+    - model/tipoDocumentoTableClass.php
+  
+tipoDocumento_update:
+  url:    /tipoDocumentoUpdate
+  param:  { module: tipoDocumento, action: update, format: html }
+  load:
+    - model/base/tipoDocumentoBaseTableClass.php
+    - model/tipoDocumentoTableClass.php
+  
+tipoDocumento_create:
+  url:    /tipoDocumentoCreate
+  param:  { module: tipoDocumento, action: create, format: html }
+  load:
+    - model/base/tipoDocumentoBaseTableClass.php
+    - model/tipoDocumentoTableClass.php
+  
+tipoDocumento_insert:
+  url:    /tipoDocumentoInsert
+  param:  { module: tipoDocumento, action: insert, format: html }
+  load:
+    - model/base/tipoDocumentoBaseTableClass.php
+    - model/tipoDocumentoTableClass.php
+  
+tipoDocumento_delete:
+  url:    /tipoDocumentoDelete
+  param:  { module: tipoDocumento, action: delete, format: html }
+  load:
+    - model/base/tipoDocumentoBaseTableClass.php
+    - model/tipoDocumentoTableClass.php
+  
+tipoDocumento_deleteSelect:
+  url:    /tipoDocumentoDeleteSelect
+  param:  { module: tipoDocumento, action: deleteSelect, format: html }
+  load:
+    - model/base/tipoDocumentoBaseTableClass.php
+    - model/tipoDocumentoTableClass.php
+  
+tipoDocumento_paginador:
+  url:    /tipoDocumentoPaginador
+  param:  { module: tipoDocumento, action: paginador, format: html }
+  load:
+    - model/base/tipoDocumentoBaseTableClass.php
+    - model/tipoDocumentoTableClass.php
+  
+tipoDocumento_reporte:
+  url:    /tipoDocumentoReporte
+  param:  { module: tipoDocumento, action: report, format: pdf }
+  load:
+    - libs/fpdf/fpdf.php
+
+##-------------------------- TIPO DOCUMENTO --------------------------##
+
+##-------------------------- ORGANIZACION --------------------------##
+
+organizacion_index:
+  url: /organizacion
+  param: { module: organizacion, action: index, format: html }
+  load:
+    - model/base/organizacionBaseTableClass.php
+    - model/organizacionTableClass.php
+  
+organizacion_edit:
+  url:    /organizacionEdit
+  param:  { module: organizacion, action: edit, format: html }
+  load:
+    - model/base/organizacionBaseTableClass.php
+    - model/organizacionTableClass.php
+  
+organizacion_update:
+  url:    /organizacionUpdate
+  param:  { module: organizacion, action: update, format: html }
+  load:
+    - model/base/organizacionBaseTableClass.php
+    - model/organizacionTableClass.php
+  
+organizacion_create:
+  url:    /organizacionCreate
+  param:  { module: organizacion, action: create, format: html }
+  load:
+    - model/base/organizacionBaseTableClass.php
+    - model/organizacionTableClass.php
+  
+organizacion_insert:
+  url:    /organizacionInsert
+  param:  { module: organizacion, action: insert, format: html }
+  load:
+    - model/base/organizacionBaseTableClass.php
+    - model/organizacionTableClass.php
+  
+organizacion_delete:
+  url:    /organizacionDelete
+  param:  { module: organizacion, action: delete, format: html }
+  load:
+    - model/base/organizacionBaseTableClass.php
+    - model/organizacionTableClass.php
+  
+organizacion_deleteSelect:
+  url:    /organizacionDeleteSelect
+  param:  { module: organizacion, action: deleteSelect, format: html }
+  load:
+    - model/base/organizacionBaseTableClass.php
+    - model/organizacionTableClass.php
+  
+organizacion_paginador:
+  url:    /organizacionPaginador
+  param:  { module: organizacion, action: paginador, format: html }
+  load:
+    - model/base/organizacionBaseTableClass.php
+    - model/organizacionTableClass.php
+  
+organizacion_reporte:
+  url:    /organizacionReporte
+  param:  { module: organizacion, action: report, format: pdf }
+  load:
+    - libs/fpdf/fpdf.php
+
+##-------------------------- ORGANIZACION --------------------------##
+
+##-------------------------- PATROCINADOR --------------------------##
+
+patrocinador_index:
+  url: /patrocinador
+  param: { module: patrocinador, action: index, format: html }
+  load:
+    - model/base/patrocinadorBaseTableClass.php
+    - model/patrocinadorTableClass.php
+  
+patrocinador_edit:
+  url:    /patrocinadorEdit
+  param:  { module: patrocinador, action: edit, format: html }
+  load:
+    - model/base/patrocinadorBaseTableClass.php
+    - model/patrocinadorTableClass.php
+  
+patrocinador_update:
+  url:    /patrocinadorUpdate
+  param:  { module: patrocinador, action: update, format: html }
+  load:
+    - model/base/patrocinadorBaseTableClass.php
+    - model/patrocinadorTableClass.php
+  
+patrocinador_create:
+  url:    /patrocinadorCreate
+  param:  { module: patrocinador, action: create, format: html }
+  load:
+    - model/base/patrocinadorBaseTableClass.php
+    - model/patrocinadorTableClass.php
+  
+patrocinador_insert:
+  url:    /patrocinadorInsert
+  param:  { module: patrocinador, action: insert, format: html }
+  load:
+    - model/base/patrocinadorBaseTableClass.php
+    - model/patrocinadorTableClass.php
+  
+patrocinador_delete:
+  url:    /patrocinadorDelete
+  param:  { module: patrocinador, action: delete, format: html }
+  load:
+    - model/base/patrocinadorBaseTableClass.php
+    - model/patrocinadorTableClass.php
+  
+patrocinador_deleteSelect:
+  url:    /patrocinadorDeleteSelect
+  param:  { module: patrocinador, action: deleteSelect, format: html }
+  load:
+    - model/base/patrocinadorBaseTableClass.php
+    - model/patrocinadorTableClass.php
+  
+patrocinador_paginador:
+  url:    /patrocinadorPaginador
+  param:  { module: patrocinador, action: paginador, format: html }
+  load:
+    - model/base/patrocinadorBaseTableClass.php
+    - model/patrocinadorTableClass.php
+  
+patrocinador_reporte:
+  url:    /patrocinadorReporte
+  param:  { module: patrocinador, action: report, format: pdf }
+  load:
+    - libs/fpdf/fpdf.php
+
+##-------------------------- PATROCINADOR --------------------------##
+
+##-------------------------- CATEGORIA --------------------------##
+
+categoria_index:
+  url: /categoria
+  param: { module: categoria, action: index, format: html }
+  load:
+    - model/base/categoriaBaseTableClass.php
+    - model/categoriaTableClass.php
+  
+categoria_edit:
+  url:    /categoriaEdit
+  param:  { module: categoria, action: edit, format: html }
+  load:
+    - model/base/categoriaBaseTableClass.php
+    - model/categoriaTableClass.php
+  
+categoria_update:
+  url:    /categoriaUpdate
+  param:  { module: categoria, action: update, format: html }
+  load:
+    - model/base/categoriaBaseTableClass.php
+    - model/categoriaTableClass.php
+  
+categoria_create:
+  url:    /categoriaCreate
+  param:  { module: categoria, action: create, format: html }
+  load:
+    - model/base/categoriaBaseTableClass.php
+    - model/categoriaTableClass.php
+  
+categoria_insert:
+  url:    /categoriaInsert
+  param:  { module: categoria, action: insert, format: html }
+  load:
+    - model/base/categoriaBaseTableClass.php
+    - model/categoriaTableClass.php
+  
+categoria_delete:
+  url:    /categoriaDelete
+  param:  { module: categoria, action: delete, format: html }
+  load:
+    - model/base/categoriaBaseTableClass.php
+    - model/categoriaTableClass.php
+  
+categoria_deleteSelect:
+  url:    /categoriaDeleteSelect
+  param:  { module: categoria, action: deleteSelect, format: html }
+  load:
+    - model/base/categoriaBaseTableClass.php
+    - model/categoriaTableClass.php
+  
+categoria_paginador:
+  url:    /categoriaPaginador
+  param:  { module: categoria, action: paginador, format: html }
+  load:
+    - model/base/categoriaBaseTableClass.php
+    - model/categoriaTableClass.php
+  
+categoria_reporte:
+  url:    /categoriaReporte
+  param:  { module: categoria, action: report, format: pdf }
+  load:
+    - libs/fpdf/fpdf.php
+
+##-------------------------- CATEGORIA --------------------------##
+
+##-------------------------- TARIFA --------------------------##
+
+tarifa_index:
+  url: /tarifa
+  param: { module: tarifa, action: index, format: html }
+  load:
+    - model/base/tarifaBaseTableClass.php
+    - model/tarifaTableClass.php
+  
+tarifa_edit:
+  url:    /tarifaEdit
+  param:  { module: tarifa, action: edit, format: html }
+  load:
+    - model/base/tarifaBaseTableClass.php
+    - model/tarifaTableClass.php
+  
+tarifa_update:
+  url:    /tarifaUpdate
+  param:  { module: tarifa, action: update, format: html }
+  load:
+    - model/base/tarifaBaseTableClass.php
+    - model/tarifaTableClass.php
+  
+tarifa_create:
+  url:    /tarifaCreate
+  param:  { module: tarifa, action: create, format: html }
+  load:
+    - model/base/tarifaBaseTableClass.php
+    - model/tarifaTableClass.php
+  
+tarifa_insert:
+  url:    /tarifaInsert
+  param:  { module: tarifa, action: insert, format: html }
+  load:
+    - model/base/tarifaBaseTableClass.php
+    - model/tarifaTableClass.php
+  
+tarifa_delete:
+  url:    /tarifaDelete
+  param:  { module: tarifa, action: delete, format: html }
+  load:
+    - model/base/tarifaBaseTableClass.php
+    - model/tarifaTableClass.php
+  
+tarifa_deleteSelect:
+  url:    /tarifaDeleteSelect
+  param:  { module: tarifa, action: deleteSelect, format: html }
+  load:
+    - model/base/tarifaBaseTableClass.php
+    - model/tarifaTableClass.php
+  
+tarifa_paginador:
+  url:    /tarifaPaginador
+  param:  { module: tarifa, action: paginador, format: html }
+  load:
+    - model/base/tarifaBaseTableClass.php
+    - model/tarifaTableClass.php
+  
+tarifa_reporte:
+  url:    /tarifaReporte
+  param:  { module: tarifa, action: report, format: pdf }
+  load:
+    - libs/fpdf/fpdf.php
+
+##-------------------------- TARIFA --------------------------##
+
+##-------------------------- TIPO PQRS --------------------------##
+
+tipoPqrs_index:
+  url: /tipoPqrs
+  param: { module: tipoPqrs, action: index, format: html }
+  load:
+    - model/base/tipoPqrsBaseTableClass.php
+    - model/tipoPqrsTableClass.php
+  
+tipoPqrs_edit:
+  url:    /tipoPqrsEdit
+  param:  { module: tipoPqrs, action: edit, format: html }
+  load:
+    - model/base/tipoPqrsBaseTableClass.php
+    - model/tipoPqrsTableClass.php
+  
+tipoPqrs_update:
+  url:    /tipoPqrsUpdate
+  param:  { module: tipoPqrs, action: update, format: html }
+  load:
+    - model/base/tipoPqrsBaseTableClass.php
+    - model/tipoPqrsTableClass.php
+  
+tipoPqrs_create:
+  url:    /tipoPqrsCreate
+  param:  { module: tipoPqrs, action: create, format: html }
+  load:
+    - model/base/tipoPqrsBaseTableClass.php
+    - model/tipoPqrsTableClass.php
+  
+tipoPqrs_insert:
+  url:    /tipoPqrsInsert
+  param:  { module: tipoPqrs, action: insert, format: html }
+  load:
+    - model/base/tipoPqrsBaseTableClass.php
+    - model/tipoPqrsTableClass.php
+  
+tipoPqrs_delete:
+  url:    /tipoPqrsDelete
+  param:  { module: tipoPqrs, action: delete, format: html }
+  load:
+    - model/base/tipoPqrsBaseTableClass.php
+    - model/tipoPqrsTableClass.php
+  
+tipoPqrs_deleteSelect:
+  url:    /tipoPqrsDeleteSelect
+  param:  { module: tipoPqrs, action: deleteSelect, format: html }
+  load:
+    - model/base/tipoPqrsBaseTableClass.php
+    - model/tipoPqrsTableClass.php
+  
+tipoPqrs_paginador:
+  url:    /tipoPqrsPaginador
+  param:  { module: tipoPqrs, action: paginador, format: html }
+  load:
+    - model/base/tipoPqrsBaseTableClass.php
+    - model/tipoPqrsTableClass.php
+  
+tipoPqrs_reporte:
+  url:    /tipoPqrsReporte
+  param:  { module: tipoPqrs, action: report, format: pdf }
+  load:
+    - libs/fpdf/fpdf.php
+
+##-------------------------- TIPO PQRS --------------------------##
+
+##-------------------------- ESTADO PQRS --------------------------##
+
+estadoPqrs_index:
+  url: /estadoPqrs
+  param: { module: estadoPqrs, action: index, format: html }
+  load:
+    - model/base/estadoPqrsBaseTableClass.php
+    - model/estadoPqrsTableClass.php
+  
+estadoPqrs_edit:
+  url:    /estadoPqrsEdit
+  param:  { module: estadoPqrs, action: edit, format: html }
+  load:
+    - model/base/estadoPqrsBaseTableClass.php
+    - model/estadoPqrsTableClass.php
+  
+estadoPqrs_update:
+  url:    /estadoPqrsUpdate
+  param:  { module: estadoPqrs, action: update, format: html }
+  load:
+    - model/base/estadoPqrsBaseTableClass.php
+    - model/estadoPqrsTableClass.php
+  
+estadoPqrs_create:
+  url:    /estadoPqrsCreate
+  param:  { module: estadoPqrs, action: create, format: html }
+  load:
+    - model/base/estadoPqrsBaseTableClass.php
+    - model/estadoPqrsTableClass.php
+  
+estadoPqrs_insert:
+  url:    /estadoPqrsInsert
+  param:  { module: estadoPqrs, action: insert, format: html }
+  load:
+    - model/base/estadoPqrsBaseTableClass.php
+    - model/estadoPqrsTableClass.php
+  
+estadoPqrs_delete:
+  url:    /estadoPqrsDelete
+  param:  { module: estadoPqrs, action: delete, format: html }
+  load:
+    - model/base/estadoPqrsBaseTableClass.php
+    - model/estadoPqrsTableClass.php
+  
+estadoPqrs_deleteSelect:
+  url:    /estadoPqrsDeleteSelect
+  param:  { module: estadoPqrs, action: deleteSelect, format: html }
+  load:
+    - model/base/estadoPqrsBaseTableClass.php
+    - model/estadoPqrsTableClass.php
+  
+estadoPqrs_paginador:
+  url:    /estadoPqrsPaginador
+  param:  { module: estadoPqrs, action: paginador, format: html }
+  load:
+    - model/base/estadoPqrsBaseTableClass.php
+    - model/estadoPqrsTableClass.php
+  
+estadoPqrs_reporte:
+  url:    /estadoPqrsReporte
+  param:  { module: estadoPqrs, action: report, format: pdf }
+  load:
+    - libs/fpdf/fpdf.php
+
+##-------------------------- ESTADO PQRS --------------------------##
+
+##-------------------------- CREDENCIAL --------------------------##
+
+credencial_index:
+  url: /credencial
+  param: { module: credencial, action: index, format: html }
+  load:
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+  
+credencial_edit:
+  url:    /credencialEdit
+  param:  { module: credencial, action: edit, format: html }
+  load:
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+  
+credencial_update:
+  url:    /credencialUpdate
+  param:  { module: credencial, action: update, format: html }
+  load:
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+  
+credencial_create:
+  url:    /credencialCreate
+  param:  { module: credencial, action: create, format: html }
+  load:
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+  
+credencial_insert:
+  url:    /credencialInsert
+  param:  { module: credencial, action: insert, format: html }
+  load:
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+  
+credencial_delete:
+  url:    /credencialDelete
+  param:  { module: credencial, action: delete, format: html }
+  load:
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+  
+credencial_deleteSelect:
+  url:    /credencialDeleteSelect
+  param:  { module: credencial, action: deleteSelect, format: html }
+  load:
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+  
+credencial_paginador:
+  url:    /credencialPaginador
+  param:  { module: credencial, action: paginador, format: html }
+  load:
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+  
+credencial_reporte:
+  url:    /credencialReporte
+  param:  { module: credencial, action: report, format: pdf }
+  load:
+    - libs/fpdf/fpdf.php
+
+##-------------------------- CREDENCIAL --------------------------##
+
+##-------------------------- EVENTO --------------------------##
+
+evento_index:
+  url: /evento
+  param: { module: evento, action: index, format: html }
+  load:
+    - model/base/eventoBaseTableClass.php
+    - model/eventoTableClass.php
+  
+evento_edit:
+  url:    /eventoEdit
+  param:  { module: evento, action: edit, format: html }
+  load:
+    - model/base/eventoBaseTableClass.php
+    - model/eventoTableClass.php
+    - model/base/categoriaBaseTableClass.php
+    - model/categoriaTableClass.php
+  
+evento_update:
+  url:    /eventoUpdate
+  param:  { module: evento, action: update, format: html }
+  load:
+    - model/base/eventoBaseTableClass.php
+    - model/eventoTableClass.php
+  
+evento_create:
+  url:    /eventoCreate
+  param:  { module: evento, action: create, format: html }
+  load:
+    - model/base/eventoBaseTableClass.php
+    - model/eventoTableClass.php
+  
+evento_insert:
+  url:    /eventoInsert
+  param:  { module: evento, action: insert, format: html }
+  load:
+    - model/base/eventoBaseTableClass.php
+    - model/eventoTableClass.php
+    - model/base/categoriaBaseTableClass.php
+    - model/categoriaTableClass.php
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+  
+evento_delete:
+  url:    /eventoDelete
+  param:  { module: evento, action: delete, format: html }
+  load:
+    - model/base/eventoBaseTableClass.php
+    - model/eventoTableClass.php
+  
+evento_deleteSelect:
+  url:    /eventoDeleteSelect
+  param:  { module: evento, action: deleteSelect, format: html }
+  load:
+    - model/base/eventoBaseTableClass.php
+    - model/eventoTableClass.php
+  
+evento_paginador:
+  url:    /eventoPaginador
+  param:  { module: evento, action: paginador, format: html }
+  load:
+    - model/base/eventoBaseTableClass.php
+    - model/eventoTableClass.php
+  
+evento_reporte:
+  url:    /eventoReporte
+  param:  { module: evento, action: report, format: pdf }
+  load:
+    - libs/fpdf/fpdf.php
+
+##-------------------------- EVENTO --------------------------##
+
+##-------------------------- EVENTOS --------------------------##
+
+eventos_index:
+  url:    /eventos
+  param:  { module: eventos, action: index, format: html }
+  load:
+    - model/base/eventoBaseTableClass.php
+    - model/eventoTableClass.php
+    - model/base/categoriaBaseTableClass.php
+    - model/categoriaTableClass.php
+  
+eventos_evento:
+  url:    /eventoDetalle
+  param:  { module: eventos, action: evento, format: html }
+  load:
+    - model/base/eventoBaseTableClass.php
+    - model/eventoTableClass.php
+    - model/base/categoriaBaseTableClass.php
+    - model/categoriaTableClass.php
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/datoUsuarioBaseTableClass.php
+    - model/datoUsuarioTableClass.php
+    - model/base/organizacionBaseTableClass.php
+    - model/organizacionTableClass.php
+    
+eventos_paginador:
+  url:    /eventosPaginador
+  param:  { module: eventos, action: paginador, format: html }
+  load:
+    - model/base/eventoBaseTableClass.php
+    - model/eventoTableClass.php
+
+eventos_reigstrar_ui:
+  url:    /registrarEventoUi
+  param:  { module: eventos, action: registrarEventoUi, format: html }
+  load:
+    - model/base/eventoBaseTableClass.php
+    - model/eventoTableClass.php
+    - model/base/categoriaBaseTableClass.php
+    - model/categoriaTableClass.php
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+
+eventos_create_ui:
+  url:    /createEventoUi
+  param:  { module: eventos, action: createEventoUi, format: html }
+  load:
+    - model/base/eventoBaseTableClass.php
+    - model/eventoTableClass.php
+
+##-------------------------- EVENTOS --------------------------##
+
+##-------------------------- USUARIO UI --------------------------##
+
+usuarioUi_index:
+    url:    /perfil
+    param:  { module: usuarioUi, action: index, format: html }
+    load:
+      - model/base/usuarioBaseTableClass.php
+      - model/usuarioTableClass.php
+      - model/base/datoUsuarioBaseTableClass.php
+      - model/datoUsuarioTableClass.php
+      - model/base/localidadBaseTableClass.php
+      - model/localidadTableClass.php
+      - model/base/datoUsuarioBaseTableClass.php
+      - model/datoUsuarioTableClass.php
+      - model/base/tipoDocumentoBaseTableClass.php
+      - model/tipoDocumentoTableClass.php
+      - model/base/organizacionBaseTableClass.php
+      - model/organizacionTableClass.php
+      
+usuarioUi_frameHandler:
+    url:    /frameHandler
+    param:  { module: usuarioUi, action: frameHandler, format: html }
+    load:
+      - model/base/usuarioBaseTableClass.php
+      - model/usuarioTableClass.php
+      - model/base/datoUsuarioBaseTableClass.php
+      - model/datoUsuarioTableClass.php
+      - model/base/localidadBaseTableClass.php
+      - model/localidadTableClass.php
+      - model/base/datoUsuarioBaseTableClass.php
+      - model/datoUsuarioTableClass.php
+      - model/base/tipoDocumentoBaseTableClass.php
+      - model/tipoDocumentoTableClass.php
+      - model/base/organizacionBaseTableClass.php
+      - model/organizacionTableClass.php
+      - model/base/eventoBaseTableClass.php
+      - model/eventoTableClass.php
+
+usuario_ui_update:
+    url:    /usuarioUiUpdate
+    param:  { module: usuarioUi, action: update, format: html }
+    load:
+      - model/base/datoUsuarioBaseTableClass.php
+      - model/datoUsuarioTableClass.php
+
+eventos_paginador_ui:
+  url:    /eventosPaginadorUi
+  param:  { module: usuarioUi, action: eventosPaginador, format: html }
+  load:
+    - model/base/eventoBaseTableClass.php
+    - model/eventoTableClass.php
+
+usuario_create_ui:
+  url:    /usuarioCreateUi
+  param:  { module: usuarioUi, action: createUserUi, format: html }
+  load:
+    - model/base/datoUsuarioBaseTableClass.php
+    - model/datoUsuarioTableClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - hooks/logHookClass.php
+
+##-------------------------- USUARIO UI --------------------------##
